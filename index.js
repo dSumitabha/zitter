@@ -3,7 +3,7 @@ import cors from 'cors';
 
 const app = express();
 app.use(cors({
-  origin: '*',
+  origin: 'https://9000-idx-yitter-1731951054661.cluster-bec2e4635ng44w7ed22sa22hes.cloudworkstations.dev/',
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
 }));
 
